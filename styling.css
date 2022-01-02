@@ -1,0 +1,252 @@
+body {
+  background-color: #f0ead6; /* Background color of light yellow . */
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1, p{
+  color: navy;
+  margin-left: 20px;
+}
+
+
+h3,h4 {
+color: #0047ab;
+margin-left: 20px;
+
+}
+
+
+.navbar{
+  background-color:tomato;
+}
+
+.navbar-brand{
+  font-size:30px;
+  font-weight:30px;
+  margin-left:20px;
+  padding-top:15px;
+}
+#brand{
+  color:#264653;
+}
+
+.nav-item{
+  margin-left:30%;
+  font-size:18px;
+  border-color:grey;
+  border-style:inset;
+}
+
+.nav-item:hover{
+  background:indianred;
+}
+
+.navitemtext{
+  color: rgb(59, 47, 47);
+  /*hover ;*/
+}
+.navitemtext:hover{
+  color: rgb(77, 45, 223);
+}
+
+#abouttext{
+  background-color: #c79fa4;
+  border-color: #ffcdb2;
+  border-width: 3px;
+  border-style:solid;
+  border-width: 8px;
+  padding: 20px;
+  margin: 200px;
+}
+
+
+#abouttext img {
+  position: absolute;
+  border-radius: 50%;
+  border-style:solid;
+  border-width:2px;
+  top:0px;
+  right:0px;
+  width:10%;
+  height:auto;
+  margin-top:17%;
+  margin-right:20%;
+  
+}
+
+.paragraph{
+  word-spacing:6.5px;
+  line-height: 25px;
+  padding-right:30%;
+  margin-bottom:20px;
+  font-size:20px;
+  margin-left:20px;
+  font-family:sans-serif;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-github{
+  background:lightsalmon;
+  color:black;
+  margin-left:80px;
+  font-size: 50px;
+}
+.fa-linkedin{
+  background:lightsalmon;
+  color:black;
+  margin-left:80px;
+  font-size: 50px;
+}
+
+.fa-github:hover{
+  text-decoration:none;
+}
+.fa-linkedin:hover{
+  text-decoration:none;
+}
+
+#landingpage{
+padding-bottom:50%;
+width: 100%;
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/Gaurav.jpg');
+background-position: top center;
+background-repeat:no-repeat;
+margin:none;
+color: black;
+}
+
+#landingtext{
+  margin-top:10%;
+  word-spacing:6.5px;
+  line-height: 30px;
+  margin-bottom:20px;
+  font-size:30px;
+  word-spacing:10px;
+  font-family:sans-serif;
+  padding: 30px 100px;
+  margin-left:50%;
+  margin-right:10px;
+  margin-top:7%;
+  border-color:black;
+  border-style:none;
+  border-width: 2px;
+  background-color:lightgrey;
+}
+
+.pagebottom{
+  margin-top:0%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-right:0px;
+  padding-left:0px;
+  margin-right:0%;margin-left:0%;
+  margin-bottom:0%;
+  background-color:lightsalmon;
+}
+
+
+.pagebottom img{
+  width: 50px;
+  height: 50px;
+  margin-left:80px;
+  text-decoration:none;
+}
+
+
+#portfolio{
+  background-color: #eeeb90;
+  border-color: #c07750;
+  border-width: 3px;
+  border-style:solid;
+  border-width: 8px;
+  padding: 20px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom:200px;
+  margin-right:120px;
+}
+
+.sidebar{
+  width: 130px;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  background: rgb(31, 142, 194);
+  overflow-x: hidden;
+  padding-right:12%;
+  margin-right: 20px;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+.sidebar a {
+  font-size: 22px;
+  color: #d0e60d;
+  display:block;
+  padding:10px;
+  text-decoration: none;  
+}
+
+.sidebar a:hover {
+  color: #1fc40a;
+  text-decoration:none;
+}
+
+
+
+
+#PersonalWebsite,#IFTP, #MVPdashbapp, #tamumake{
+  padding-top:40px;
+}
+#portfolio img{
+  border-style:solid;
+  border-width:2px;
+  height:auto;
+  margin-bottom:5px;
+  margin-top:10px;
+  width:80%;
+  margin-left:150px;   
+}
+
+
+
+
+#qualifications{
+  background-color: #b2dba6;
+  border-color: #c07750;
+  border-width: 3px;
+  border-style:solid;
+  border-width: 8px;
+  font-size:20px;
+  padding: 20px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom:200px;
+  margin-right:120px;
+}
+
+
+#service{
+  background-color: #ecbde6;
+  border-color: #c07750;
+  border-width: 3px;
+  border-style:solid;
+  border-width: 8px;
+  font-size:20px;
+  padding: 20px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom:200px;
+  margin-right:120px;
+}

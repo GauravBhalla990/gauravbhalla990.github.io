@@ -1,0 +1,83 @@
+<!--To do -->
+<!--Format text into CSS boxes and make everything be from styling sheet-->
+<!--Format images on side and outlined appropriately-->
+<!--Add custom sidebar to all pages -->
+<!--Color texts appropriately-->
+<!--Icons for social media-->
+<!--Apply new style skills to all web pages-->
+<!--Comment Webpages appropriately-->
+<!DOCTYPE HTML>
+<html>
+<head>
+  <!-- Template for the Style of Each website -->
+  <title> Portfolio </title>
+  <!--Favicon picture-->
+    <link rel="shortcut icon" href="images/face.ico"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styling.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- 1) Appropriate background (circuit) and pictures -->
+  <!-- 2) use bootstrap to style minimally but effectively -->
+  <!-- 3) Create template page for all pages to follow and has toolbar and background image. -->
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="index.html"> 
+        <div id = "brand">Gaurav Bhalla</div>
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="aboutme.html"> <div class = "navitemtext">About</div></a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link" href="portfolio.html"><div class = "navitemtext"> Portfolio</div></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="qualifications.html"><div class = "navitemtext">Qualifications</div></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="service.html"><div class = "navitemtext">Service</div></a>
+      </li>
+    </ul>
+   </nav>
+
+   <div id="abouttext">
+       <img src="images/headshot.jpg" alt = "Picture of Containers in use as clinics">
+       <div class="paragraph">
+        Since my time in high school, I have been greatly interested in Mathematics, computers and electronics. During the summer of 2020, I was given an opportunity to practice some of my back-end web development skills and gain experience working in industry through an internship at PCCI. Now, as a student in my 3rd year, armed with knowledge of good industry practices and more technical knowledge from my coursework, I hope to practice what I have learned through working as a IC Validation Engineering Intern during the summer of 2021.
+       </div>
+        <div class= "paragraph">
+        In my position as an undergraduate researcher at Texas A&M, I have been working on validating an Application Specific Integrated Circuit (ASIC) with guidance from my mentor every week. The ASIC is designed to detect alpha particles and I have read through the specification document to learn the requirements to validate the ASIC. To validate the ASIC, I will use a Printed Circuit Board (PCB) to interface the ASIC with my computer. Last fall, I validated the connections on the PCB with a multimeter. This semester, I hope to validate the ASIC in the lab.
+        </div>
+        <div class = "paragraph">
+        As an Embedded Design Engineer at RoboMaster Robotics, I programmed a function to deliver power to the motors turning the wheels on our Standard robot in a three-member team within the given timeline of two weeks and pushed the new code to our GitHub repository. Over the winter break, on my own initiative, I then helped my supervisor debug the function as he executed the updated code on the Standard robot. 
+        </div>
+        <div class = "paragraph">
+        Through my Digital Design class, I have practiced basic circuit design with ICs on breadboards, and then learned how to use the Verilog HDL. Furthermore, through my Computer Architecture class, I designed a model for a single cycle ARMv8 processor with Verilog. Using the experience from these classes, I hope to build a computer from the ground up.
+        </div>
+   </div>
+
+   <div class="pagebottom">
+    <a href="https://www.linkedin.com/in/gauravbhalla9/" target = "_blank" class="fa fa-linkedin"></a>
+    <a href="https://github.com/GauravBhalla990/" target = "_blank" class="fa fa-github"></a>
+    <a href="https://corps.tamu.edu/" target="_blank"> <img src="images/cod.jpg"> </a>
+    <a href="https://ieee-tamu.org/" target="_blank"> <img src="images/ieee.jpg"> </a>
+    <a href="https://pccinnovation.org/" target="_blank"> <img src="images/pcci.jpg"> </a>
+    <a href="https://www.buildtamu.com/" target="_blank"> <img src="images/BUILD.jpg"> </a>
+    <a href="https://bigevent.tamu.edu/" target="_blank"> <img src="images/bigevent.jpg"> </a>
+    <a href="https://www.tamurobomasters.com/" target="_blank"> <img src="images/robomasters.jpg"> </a>
+    <a href="http://w5ac.tamu.edu/" target="_blank"> <img src="images/w5ac.jpg"> </a>
+    <a href="https://engineering.tamu.edu/student-life/aggies-invent/index.html"> <img src="images/iftp.jpg"> </a>
+    </div>
+</body>
+
+<!--JS CDN sources required for Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
